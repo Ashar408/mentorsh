@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+   
+    .project{
+        margin-left: 60px;
+       }
+
+       .btmcrd{
+       	
+       	height: 150px;
+       }
+       .ftr{
+     	margin-top: 110%;
+       }
+       .project1{
+       	margin-left: 60px;
+       }
+}
+/* Responsive CSS Code */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {   .btmcrd{
+       
+       	height: 150px;
+       }
+      }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        
+        margin-left: auto;
+        margin-right: auto;
+      }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  .btmcrd{
+       	
+       	height: 150px;
+       } }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {   .btmcrd{
+       
+       	height: 150px;
+       }}
+
+
+
+
+
+  }
+  .body{
+  	width: 100%;
+  	height: 100%;
+  }
+  .item1 {
+  grid-column: 1 / 3;
+}
+.fnt{
+	font-weight: bold;
+}
